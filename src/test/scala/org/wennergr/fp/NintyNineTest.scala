@@ -167,7 +167,7 @@ class NintyNineTest extends FlatSpec with Matchers {
   "The drop function" should "remove every N element from a list" in {
     val inputN = 3
     val inputList = List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)
-    val expected = List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)
+    val expected = List('a, 'b,'d, 'e, 'g, 'h, 'j, 'k)
 
     NintyNine.drop(inputN, inputList) should be(expected)
   }
