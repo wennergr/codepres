@@ -9,7 +9,7 @@ scala> last(List(1, 1, 2, 3, 5, 8))  <br/>
 ans> 8
 
 **Find the last but one element of a list.** <br/>
-scala> penultimate(List(1, 1, 2, 3, 5, 8))
+scala> penultimate(List(1, 1, 2, 3, 5, 8)) <br/>
 ans> 5
 
 **Take N element from a list** <br/>
