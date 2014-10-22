@@ -28,3 +28,7 @@ ans> List(4,5,6)
 scala> slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))  <br/>
 ans> List('d, 'e, 'f, 'g)
 
+**Flatten a nested list structure.** <br/>
+scala> flatten(List(List(1, 1), 2, List(3, List(5, 8)))) <br/>
+ans> List(1, 1, 2, 3, 5, 8) <br/>
+
