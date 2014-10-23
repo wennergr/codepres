@@ -28,6 +28,10 @@ ans> List(4,5,6)
 scala> slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))  <br/>
 ans> List('d, 'e, 'f, 'g)
 
+**Run a function on every element in a list.** <br/>
+scala> map(List(1,2,3))( x => x * 2) <br/>
+ans> List(2, 4, 6) <br/>
+
 **Flatten a nested list structure.** <br/>
 scala> flatten(List(List(1, 1), 2, List(3, List(5, 8)))) <br/>
 ans> List(1, 1, 2, 3, 5, 8) <br/>
